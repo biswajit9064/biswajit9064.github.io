@@ -1,0 +1,38 @@
+
+nav{
+    background-color: bisque;
+    
+    
+
+}
+nav label{
+    font-size: 40px;
+    
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:darkcyan;
+    padding-left: 55px;
+    
+
+}
+nav ul {
+    
+    
+    display:flex;
+
+}
+nav ul li{
+
+    
+    font-size: 20px;
+    text-align: right;
+
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+nav div{
+
+    padding: 10px;
+
+}

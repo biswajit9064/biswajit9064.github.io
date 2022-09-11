@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0; 
+    
+    
+}
+.body{
+    background:url('C:\Users\biswa\OneDrive\Desktop\h.jpg');
+    
+    
+    
+    
+    
+}
+
+
+.container{
+    background-color: antiquewhite;
+    padding: 15px;
+    
+}
+
+.nav-contains{
+    margin-top: 8px;
+    display: inline-block;
+    position: absolute;
+    /* left: 500px; */
+    right: 0;
+
+}
+
+.nav-list{
+    display: inline;
+    padding: 20px;
+    text-decoration: none;   
+}
+
+
+.Header1{
+    padding: 10px;
+    font-style: italic;
+    font-size: 30px;
+}
+.div-contains{
+    background-color: antiquewhite;
+    padding: 30px;
+    margin: 30px;
+    border: 10px solid violet;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+.header{
+    font-size: 30px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    text-decoration:underline;
+}
+.hh{
+    text-align: center
+
+}

@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url("./h.jpg");
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    text-decoration: none;
+
+}
+h1{
+    font-size: 30px;
+}
+
+.li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    text-transform: capitalize;
+    font-size: 20px;
+
+    
+}
+header{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    background-color: aliceblue;
+    border: 6px solid violet;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 430px;
+}
+.box .static-txt{
+    color:chocolate;
+    font-size: 60px;
+    font-weight: 400;
+
+}
+.box .dynamic-txt{
+    margin-left: 15px;
+    line-height: 90px;
+    height: 90px;
+    overflow: hidden;
+    
+}
+.dynamic-txt li{
+    list-style: none;
+    color:cadetblue;
+    font-size: 60px;
+    font-weight: 500;
+    top:0%;
+    animation: slide 12s steps(4)
+    infinite;
+    position: relative;
+}
+@keyframes slide{
+    100%{
+        top: -360px;
+    }
+}
+.dynamic-txt li::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+    
+    border-left: 2px solid violet;
+    animation: typing 3s steps(9)
+    infinite;
+}
+@keyframes typing{
+    40%,
+    60%{
+        left: calc(100% + 30px);
+    }
+    100%{
+        left: 0;
+    }
+}
